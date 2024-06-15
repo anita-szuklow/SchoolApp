@@ -1,0 +1,47 @@
+.logo {
+    max-width: 150px;
+    max-height: 70px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+.card {
+    transition: all 0.3s;
+    background-color: aliceblue;
+    outline-color: darkslateblue;
+    filter: drop-shadow(5px 5px 5px lightgrey);
+    height: 100%;
+}
+
+    .card:hover {
+        transform: scale(1.02);
+        /*background-color: darkcyan;
+        color: azure;*/
+    }
+
+.navbar {
+    background-color: aliceblue;
+    /*filter: drop-shadow(5px 5px 5px lightgrey);*/
+}
+
+.container {
+    max-width: 1500px;
+}
+.myContainer {
+    max-width: 700px;
+}
+
+.myCard {
+    transition: none;
+    background-color: white;
+    outline-color: darkslateblue;
+    filter: none;
+    height: 100%;
+}
+    .card:hover {
+        transform: none;
+    }
